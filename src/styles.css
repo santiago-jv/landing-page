@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --white: hsl(0, 0%, 100%);
+    --grayish-blue : hsl(240, 2%, 79%);
+    --very-dark-grayish-blue: hsl(207, 13%, 34%);
+    --very-dark-black-blue: hsl(240, 10%, 16%); 
+    
+    --very-light-red: hsl(13, 100%, 72%);
+    --light-red: hsl(353, 100%, 62%);
+    
+    --very-dark-gray-blue: hsl(237, 17%, 21%);
+    --very-dark-desaturated-blue: hsl(237, 23%, 32%);
+
+}
+
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+/*  font-family: 'Overpass', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.6rem;
+
+}
+a{
+    text-decoration: none;
+   
+}
+a,p {
+    color:var(--very-dark-black-blue);
+}
+button{
+    outline: none;
+    border: none;
+    padding: 1.2rem 2.1rem;
+    border-radius:1.9rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    font-size: 1.6rem;
+}
