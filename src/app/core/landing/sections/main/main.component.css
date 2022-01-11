@@ -2,7 +2,7 @@ main{
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(to bottom, var(--very-light-red) ,var(--light-red));
-    border-bottom-left-radius: 10rem;
+    border-bottom-left-radius: 15rem;
     position: relative;
     overflow: hidden;
     z-index: 2;
