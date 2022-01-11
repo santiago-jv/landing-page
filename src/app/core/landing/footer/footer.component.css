@@ -1,0 +1,31 @@
+footer{
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr); 
+    row-gap: 4rem;
+    width: 100%;
+    margin-top: 12rem;
+    padding:6rem 0;
+    background-color: var(--very-dark-black-blue);
+    border-top-right-radius: 10rem;
+}
+p{
+    font-weight: 500;
+    margin-bottom: .7rem;
+}
+h1,p,li{
+    text-align: center;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+@media screen and (min-width:1000px) {
+    footer{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr; 
+    }
+}
