@@ -13,6 +13,7 @@ h2{
 
 img.mobile{
     display: block;
+    width: 100%;
     margin: auto;
 }
 img.desktop { 
@@ -57,13 +58,13 @@ p{
     img.desktop { 
         display: block;
         width: 100%;
+        max-width: 600px;
         position: absolute;
         top: -10rem;
         
     }
     img.mobile{
         display: none;
-        width: 100%;
     }
     .first-article { 
         grid-area: 1 / 2 / 2 / 3;

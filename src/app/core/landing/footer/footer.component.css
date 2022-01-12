@@ -18,9 +18,14 @@ h1,p,li{
     text-align: center;
     color: white;
 }
-
+p{
+    cursor:  default;
+}
 li{
     list-style: none;
+    margin-bottom: .5rem;
+    color: var(--grayish-blue);
+    cursor: pointer;
 }
 
 @media screen and (min-width:1000px) {

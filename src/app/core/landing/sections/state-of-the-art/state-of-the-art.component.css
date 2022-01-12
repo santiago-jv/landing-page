@@ -24,7 +24,9 @@ img.phones{
     margin-left: auto;
     margin-right: auto;
     bottom: 20rem;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+
     overflow: hidden;
 }
 
@@ -62,6 +64,7 @@ h1,p{
         left: -35rem;
         bottom: 5rem;
         width: 100%;
+        max-width: 100%;
     }
     article{
         margin:0;

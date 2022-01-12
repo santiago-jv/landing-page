@@ -19,6 +19,7 @@ h1 {
 img.mobile{
     display: block;
     margin: auto;
+    width: 100%;
 }
 img.desktop { 
     display: none;
