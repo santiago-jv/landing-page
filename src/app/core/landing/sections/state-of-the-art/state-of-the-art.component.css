@@ -17,7 +17,7 @@ img.phones{
     top: -22rem;
     width: 100%;
     max-width: 400px;
-    z-index: 2;
+    z-index: 1;
 }
 .decoration{
     position: absolute;
@@ -32,7 +32,7 @@ img.phones{
 
 article{
     margin: 20rem 0 10rem 0;
-    z-index: 2;
+    z-index: 1;
 }
 h1{
     font-size: 3rem;
